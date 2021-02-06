@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WeatherApps</string>
+    <string name="hari_ini">hari ini?</string>
+    <string name="cuaca">Cuaca</string>
+    <string name="sudahkah_anda_cek">Sudahkah anda cek</string>
+    <string name="lanjutkan">Lanjutkan</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="kode_negara">Kode Negara</string>
+    <string name="latitude_longitude">latitude-longitude</string>
+    <string name="weather">Weather</string>
+    <string name="temp">Temp</string>
+    <string name="f">°F</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind">Wind</string>
+    <string name="pressure">Pressure</string>
+    <string name="kota_lain">Kota Lain</string>
+    <string name="api_key">c8f89fe73f1794f6de0ad65a01581b6d</string>
+</resources>
