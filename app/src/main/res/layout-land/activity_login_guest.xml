@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_guest2"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    tools:context=".view.view.LoginGuest">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_login_hallo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/hey"
+        android:textColor="@color/yellow_light"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/selamat_datang"
+        android:textColor="@color/white"
+        android:textSize="23sp" />
+
+    <View
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/silahkan_login_sebagai_guest"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="30dp"
+        android:padding="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/purple_old"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="15dp">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/login"
+                android:fontFamily="@font/poppins_semibold"
+                android:textColor="@color/white"
+                android:textSize="23sp"/>
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/open_sans_light"
+                android:text="@string/nama"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/edt_nama_panjang_login"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/bg_edit_text"
+                android:inputType="text"
+                android:fontFamily="@font/open_sans"
+                android:hint="Masukkan Nama Panjang"
+                android:paddingStart="15dp"
+                android:layout_marginBottom="30dp"
+                android:paddingLeft="15dp"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                tools:ignore="RtlSymmetry" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <ImageButton
+        android:id="@+id/btn_login_user"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="@color/white"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/btn_cirlce2" />
+
+    </LinearLayout>
+</ScrollView>

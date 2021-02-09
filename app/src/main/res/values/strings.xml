@@ -15,4 +15,14 @@
     <string name="pressure">Pressure</string>
     <string name="kota_lain">Kota Lain</string>
     <string name="api_key">c8f89fe73f1794f6de0ad65a01581b6d</string>
+    <string name="hey">Hey,</string>
+    <string name="selamat_datang">Selamat Datang!</string>
+    <string name="silahkan_login_sebagai_guest">Silahkan Login Sebagai Guest</string>
+    <string name="nama_panjang">Nama Panjang</string>
+    <string name="nama">Nama</string>
+    <string name="login">Login</string>
+    <string name="hi">Hi,</string>
+    <string name="nama_user">Nama User</string>
+    <string name="ini_cuaca_dikotamu">Ini cuaca dikotamu!</string>
+    <string name="logout">LOGOUT</string>
 </resources>
